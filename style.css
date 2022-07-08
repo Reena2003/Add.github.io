@@ -1,0 +1,43 @@
+
+
+html,body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.Box{
+    display: flex;
+    width: 20%;
+    height: 45%;
+    border: 2px solid burlywood;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+.add{
+    width: 100%;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: aliceblue;
+    position: absolute;
+    left: 0px;
+    bottom: -40px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Box:hover .add{
+    bottom:0px;
+    opacity: 1;
+}
+@media(max-width:1200px){
+    .Box{
+        display: flex;
+        width: 300px;
+        height: 300px;
+    }
+
+} 
+    
+
+
